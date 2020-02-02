@@ -1,0 +1,7 @@
+axon:
+  axonserver:
+    servers: ${AXON_SERVERS}
+
+management:
+    server:
+      port: 9000
