@@ -22,6 +22,8 @@ public class BookOrder {
     private Integer numberOfAvailableSamples;
     private Double price;
 
+    public BookOrder(){}
+
     @CommandHandler
     public BookOrder(final PublishBookCommand command){
         // Validation
